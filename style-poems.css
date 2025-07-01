@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  color: #ffffff;
+  background: url('https://cdn.pixabay.com/photo/2022/04/13/10/32/forest-7128669_1280.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  background-color: rgba(30, 20, 50, 0.7);
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  color: #fffbe6;
+}
+
+nav a {
+  color: #c7e9ff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1rem;
+}
+
+main {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 2rem;
+  border-radius: 15px;
+}
+
+.poem {
+  margin-bottom: 2rem;
+}
+
+.poem h2 {
+  color: #ffe066;
+  margin-bottom: 0.5rem;
+}
+
+.poem p {
+  line-height: 1.8;
+  font-size: 1.15rem;
+  white-space: pre-line;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(20, 0, 30, 0.6);
+  margin-top: 2rem;
+  color: #ccc;
+}
